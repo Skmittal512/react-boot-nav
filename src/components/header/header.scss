@@ -10,11 +10,12 @@
     font-weight: 500;
     font-size: 24px !important;
     transition: 0.3s color;
+
+    &:hover {
+        color: #00b383 !important;
+    }
 }
 
-.navbar-brand:hover {
-    color: #00b383 !important;
-}
 
 .login-button {
     background-color: #009970;
@@ -24,11 +25,12 @@
     border-radius: 50px;
     text-decoration: none;
     transition: 0.3s background-color;
+
+    &:hover {
+        background-color: #00b383;
+    }
 }
 
-.login-button:hover {
-    background-color: #00b383;
-}
 
 .navbar-toggler {
     border: none !important;
@@ -45,12 +47,16 @@
     color: #666777 !important;
     font-weight: 500 !important;
     position: relative;
+
+    &:hover {
+        color: #000 !important;
+        
+    }
+    &.active{
+        color: #000 !important;
+    }
 }
 
-.nav-link:hover,
-.nav-link.active {
-    color: #000 !important;
-}
 
 @media (min-width:991px) {
     .nav-link::before {

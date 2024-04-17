@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import './header.css';
+import "./header.scss"
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
@@ -62,13 +62,13 @@ const Header = () => {
                 onMouseLeave={handleBlogsMouseLeave}
                 onClick={handleBlogsClick}
               >
-                <NavDropdown.Item to="/blogs" as={NavLink}>
+                <NavDropdown.Item to="/blogs1" as={NavLink}>
                   Blog 1
                 </NavDropdown.Item>
-                <NavDropdown.Item to="/blogs" as={NavLink}>
+                <NavDropdown.Item to="/blogs2" as={NavLink}>
                   Blog 2
                 </NavDropdown.Item>
-                <NavDropdown.Item to="/blogs" as={NavLink}>
+                <NavDropdown.Item to="/blogs3" as={NavLink}>
                   Blog 3
                 </NavDropdown.Item>
               </NavDropdown>
